@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+	* {
+		@apply box-border;
+	}
+    body{
+        @apply bg-primaryB;
+        @apply relative;
+        @apply min-h-full;
+        @apply w-full;
+    }
+}
